@@ -1,0 +1,25 @@
+bash ~/02_preparar_entorno.sh
+source  ~/.bashrc  && history -a
+bash /home/vagrant/carpeta_compartida/03_organizar_directorio.sh
+exit
+RTA_Examen_20250624/ls -la RTA_Examen_20250624/
+ls -la RTA_Examen_20250624/
+chmod +x RTA_Examen_20250624/Punto_*.sh
+ls -la
+cd RTA_Examen_20250624/
+ls -l
+vim Punto_A.sh 
+vim Punto_B.sh 
+vim Punto_C.sh 
+vim Punto_D.sh 
+vim Punto_A.sh 
+vim Punto_B.sh 
+vim Punto_C.sh 
+vim Punto_D.sh 
+cd ~
+mkdir UTNFRA_SO_Recu_Integral_Martinez
+cd UTNFRA_SO_Recu_Integral_Martinez
+git init
+cp -r ~/TP_2_SO/202408 .
+cp -r ~/RTA_Examen_20250624 .
+history -a
